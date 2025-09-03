@@ -139,7 +139,7 @@ To run the test defined above:
 4. Activate the package environment by running `activate .` command,
 5. In the package mode, run the command test.
 
-```
+```julia
 julia> ] # Go to the package mode
 (v1.8) pkg> activate .
 (YourPackageName) pkg> test
