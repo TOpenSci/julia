@@ -1,8 +1,10 @@
-# How to develop a Julia package
+# Guildline for Julia package development
 
-A package contains modules, tests, and documentation. It extends core Julia functionality. You can share your code with the community by developing a package. In this tutorial, you’ll learn how to develop a Julia package and register it to the Julia General Registry.
+Adapt from [How to develop a Julia package](https://julialang.org/contribute/developing_package/)
+---
+A package contains modules, tests, and documentation. It extends core Julia functionality. You can share your code with the community by developing a package. In this tutorial, you’ll learn how to develop a Julia package and register it to the [Julia General Registry](https://github.com/JuliaRegistries/General).
 
-You can create a Julia package using the built-in package manager `PkgDev.jl` or the package `PkgTemplates.jl`. This example uses `PkgTemplates.jl` and is inspired in the video below:
+You can create a Julia package using the built-in package manager [PkgDev.jl](https://github.com/JuliaLang/PkgDev.jl) or the package [PkgTemplates.jl](https://juliaci.github.io/PkgTemplates.jl/stable/). This example uses `PkgTemplates.jl` and is inspired in the video below:
 
 
 In the video, Chris Rackauckas uses Travis as a Continuous Integration (CI) tool. For this tutorial, we use GitHub Actions instead which is the current preferred method.
