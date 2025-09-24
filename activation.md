@@ -1,4 +1,7 @@
-To activate a Julia project environment, there are several methods available:
+# Julia environment preparation
+
+## To activate a Julia project environment, there are several methods available:
+
 1. From the Julia REPL (Package Mode):
 - Open the Julia REPL.
 - Enter package mode by typing ].
