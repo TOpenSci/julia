@@ -48,7 +48,8 @@ Pkg.activate("path/to/project")
 4. Using the JULIA_PROJECT Environment Variable:
 Set the JULIA_PROJECT environment variable to the path of your project before launching Julia. This will automatically activate the specified project when Julia starts.
 Choosing the Right Method:
-REPL Package Mode (activate . or activate MyProject): Ideal for interactive development and when you are already within the Julia REPL.
-julia --project=. (from terminal): Convenient for starting a Julia session directly within a project environment from your shell.
-Pkg.activate() (programmatically): Useful for scripts that need to ensure a specific environment is active before running.
-JULIA_PROJECT environment variable: Suitable for consistent project activation in specific workflows or automated setups.
+
+- REPL Package Mode (activate . or activate MyProject): Ideal for interactive development and when you are already within the Julia REPL.
+- julia --project=. (from terminal): Convenient for starting a Julia session directly within a project environment from your shell.
+- Pkg.activate() (programmatically): Useful for scripts that need to ensure a specific environment is active before running.
+- JULIA_PROJECT environment variable: Suitable for consistent project activation in specific workflows or automated setups.
