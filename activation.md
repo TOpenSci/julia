@@ -1,5 +1,11 @@
 # Julia environment preparation
 
+## Prepare working folder
+
+1. Create folder
+2. Open shell
+3. Move to folder
+
 ## To activate a Julia project environment, there are several methods available:
 
 1. From the Julia REPL (Package Mode):
