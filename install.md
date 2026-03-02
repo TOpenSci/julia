@@ -1,3 +1,3 @@
 ## install using JuliaUp
 
-[](https://github.com/JuliaLang/juliaup)
+()[https://github.com/JuliaLang/juliaup]
