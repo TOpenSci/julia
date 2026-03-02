@@ -17,7 +17,7 @@ Before you begin developing a package, make sure you perform the following steps
 
 1. Install Julia on your local machine follow [JuliaUp](https://github.com/JuliaLang/juliaup)
 2. Install an IDE and configure it to work with Julia.
-3. Understand how modules work in Julia.
+3. Understand how [modules](https://docs.julialang.org/en/v1/manual/modules/) work in Julia.
 4. Create a GitHub account if you don’t have one already.
 
 Note: In case of any issues, remember you can get help from the community.
