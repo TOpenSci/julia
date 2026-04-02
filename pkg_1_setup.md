@@ -130,45 +130,6 @@ You need to create a GitHub repository to store and share your package. For more
 - Add .jl to the name of the repository. In this example, you need to name your repository as `YourPackageName.jl`.
 - Keep the options of Initialize this repository with unselected.
 
-## Step 3: Write code
-Now, you can start writing code. You can find a file with the same name as your package (`YourPackageName.jl`) in the subfolder `src/.` You can add your code to the file `YourPackageName.jl`. However, If your package contains many functions, then it is best to divide it into several files. Then, you can call these functions from the main file (`YourPackageName.jl`) using the include command.
-
-To include a function from a different file in `YourPackageName.jl`:
-
-1. In the folder `src/`, create a file called `functions.jl`.
-2. Add the following text to the file `functions.jl`:
-
-```julia
-function greet_your_package_name()
-    return "Hello YourPackageName!"
-end
-```
-
-3. Export the function `greet_your_package_name()` so that is available to users as follows:
-
-```julia
-export greet_your_package_name
-```
-
-4. In the main file `YourPackageName.jl`, include the `functions.jl` file with the following command:
-
-```julia
-include("functions.jl")
-```
-
-5. Finally, the full content of the main file (`YourPackageName.jl`) is the following:
-
-```julia
-module YourPackageName
-
-export greet_your_package_name
-include("functions.jl")
-
-end
-```
-
-You can include as many functions and files as you need following the process described above.
-
 ## Step 4: Test your package
 Tests are necessary to make sure that your package is working correctly. When you create a new package, `PkgTemplates.jl` creates a starter code (`test/runtests.jl`) for your tests. Then, you can add tests for each new function that you write.
 
